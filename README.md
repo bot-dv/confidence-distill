@@ -33,9 +33,9 @@ The other tasks would follow the same path.
 * Run distillation 
    * <code> source rq1_train_eval_tinybert_6l_sst2.sh </code> 
    * distilled model will be created and saved, softmax outputs will be saved to "_eval_output"
-   * Expected output: ![output](distillation.png)
+   * Expected output: ![output](https://github.com/bot-dv/confidence-distill/distillation.png?raw=true)
 
 * Analyze results
   * <code> jupyter lab </code>
-  * Expected output: ![output](confidence.png)
+  * Expected output: ![output](https://github.com/bot-dv/confidence-distill/confidence.png?raw=true)
 
