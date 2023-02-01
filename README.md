@@ -8,7 +8,7 @@
 * TinyBERT - code with knowledge distillation [TinyBERT](https://arxiv.org/abs/1909.10351) with modifications for data collections
 * rq1_results.ipynb - analysis of the properties and collected data for RQ1, S_{6L}
 * rq1_train_eval_tinybert_6l_sst2.sh - runfile for experiments/research questions
-* VM - basic CPU environment with py37 that can also be otained via requirements.txt
+* requirements.txt - basic CPU environment on ubuntu with py37 
 
 ### Outputs
 * _eval_output - collected data on sotmax from the experiments
@@ -33,9 +33,9 @@ The other tasks would follow the same path.
 * Run distillation 
    * <code> source rq1_train_eval_tinybert_6l_sst2.sh </code> 
    * distilled model will be created and saved, softmax outputs will be saved to "_eval_output"
-   * Expected output: 
+   * Expected output: ![output](distillation.png)
 
 * Analyze results
   * <code> jupyter lab </code>
-  * Expected output: 
+  * Expected output: ![output](confidence.png)
 
