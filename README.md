@@ -13,20 +13,19 @@
 ### Outputs
 * _eval_output - collected data on sotmax from the experiments
 
-##  RTE task (example)
-Below we describe the process of distilling and then property analysis on RTE task.
+##  SST-2 task (example)
+Below we describe the process of distilling and then property analysis on SST-2 task.
 The other tasks would follow the same path.
-We selected RTE due to its relatively smaller size.
 
 
 * Copy General Distill model
   * copy from [_models](https://drive.google.com/drive/folders/1SA12d_mQf-Z6oG3tpCeAKWt2UV_JfjhQ?usp=share_link)/General_TinyBERT_6L_768D  to your "./_models/" folder 
 
 * Copy teacher model (uncased BERT fine-tuned on RTE)
-  * copy from [_models](https://drive.google.com/drive/folders/1SA12d_mQf-Z6oG3tpCeAKWt2UV_JfjhQ?usp=share_link)/bert-base-uncased-rte  to your "./_models/" folder 
+  * copy from [_models](https://drive.google.com/drive/folders/1SA12d_mQf-Z6oG3tpCeAKWt2UV_JfjhQ?usp=share_link)/bert-base-uncased-finetuned-sst2  to your "./_models/" folder 
 
 * Copy dataset
-  * copy from [_data](https://drive.google.com/drive/folders/1JY0JfuAKHCTQxMLoI8Bc8pgW9FdtcXTC?usp=share_link)/glue_data/RTE to your "./data/glue_data/RTE"
+  * copy from [_data](https://drive.google.com/drive/folders/1JY0JfuAKHCTQxMLoI8Bc8pgW9FdtcXTC?usp=share_link)/glue_data/SST-2 to your "./data/glue_data/RTE"
 
 * Run distillation (VM)
    * source rq1_train_eval_tinybert_6l_sst2.sh
