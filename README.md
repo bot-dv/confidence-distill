@@ -21,7 +21,7 @@ The other tasks would follow the same path.
 * Copy General Distill model
   * copy from [_models](https://drive.google.com/drive/folders/1SA12d_mQf-Z6oG3tpCeAKWt2UV_JfjhQ?usp=share_link)/General_TinyBERT_6L_768D  to your "./_models/" folder 
 
-* Copy teacher model (uncased BERT fine-tuned on RTE)
+* Copy teacher model (uncased BERT fine-tuned on SST-2)
   * copy from [_models](https://drive.google.com/drive/folders/1SA12d_mQf-Z6oG3tpCeAKWt2UV_JfjhQ?usp=share_link)/bert-base-uncased-finetuned-sst2  to your "./_models/" folder 
 
 * Copy dataset
