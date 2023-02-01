@@ -5,15 +5,15 @@
 ### Inputs
 * [_data](https://drive.google.com/drive/folders/1JY0JfuAKHCTQxMLoI8Bc8pgW9FdtcXTC?usp=share_link) - datatsets
 * [_models](https://drive.google.com/drive/folders/1SA12d_mQf-Z6oG3tpCeAKWt2UV_JfjhQ?usp=share_link) - input models 
-* TinyBERT - code with knowledge distillation [TinyBERT](https://arxiv.org/abs/1909.10351) with modifications for data collections
-* rq1_results.ipynb - analysis of the properties and collected data for RQ1, S_{6L}
-* rq1_train_eval_tinybert_6l_sst2.sh - runfile for experiments/research questions
-* requirements.txt - basic CPU environment on ubuntu with py37 
+* **TinyBERT** - code with knowledge distillation [TinyBERT](https://arxiv.org/abs/1909.10351) with modifications for data collections
+* **rq1_results.ipynb** - analysis of the properties and collected data for RQ1, S_{6L}
+* **rq1_train_eval_tinybert_6l_sst2.sh** - runfile for experiments/research questions
+* **requirements.txt** - basic CPU environment on ubuntu with py37 
 
 ### Outputs
-* _eval_output - collected data on sotmax from the experiments
+* **_eval_output** - collected data on sotmax from the experiments
 
-##  SST-2 task (example)
+##  Example (SST-2 task)
 Below we describe the process of distilling and then property analysis on SST-2 task.
 The other tasks would follow the same path.
 
