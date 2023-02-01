@@ -27,11 +27,15 @@ The other tasks would follow the same path.
 * Copy dataset
   * copy from [_data](https://drive.google.com/drive/folders/1JY0JfuAKHCTQxMLoI8Bc8pgW9FdtcXTC?usp=share_link)/glue_data/SST-2 to your "./data/glue_data/RTE"
 
-* Run distillation (VM)
-   * source rq1_train_eval_tinybert_6l_sst2.sh
-(distilled model will be created and saved, softmax outputs will be save)
+* Create environment
+  * <code> pip install -r requirements.txt </code>
+
+* Run distillation 
+   * <code> source rq1_train_eval_tinybert_6l_sst2.sh </code> 
+   * distilled model will be created and saved, softmax outputs will be saved to "_eval_output"
+   * Expected output: 
 
 * Analyze results
-  * jupyter lab
-
+  * <code> jupyter lab </code>
+  * Expected output: 
 
